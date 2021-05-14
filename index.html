@@ -8,13 +8,14 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
+  <script src="https://kit.fontawesome.com/0c29b597aa.js" crossorigin="anonymous"></script>
   <title>Frontend Mentor | Huddle landing page with alternating feature blocks</title>
 </head>
 <body>
 
   <header class="contenedor-hero">
 
-    <img src="/images/logo.svg" class="contenedor-hero__logo" alt="Huddle Logo">
+    <img src="images/logo.svg" class="contenedor-hero__logo" alt="Huddle Logo">
 
     <button class="boton b-try">Try It Free</button>
 
@@ -27,7 +28,7 @@
       <button class="boton b-claim">Get Started For Free</button>
     </div>
     <!-- <div class="contenedor-hero__image"> -->
-    <img src="/images/illustration-mockups.svg" class="hero__img" alt="Portfolio">
+    <img src="images/illustration-mockups.svg" class="hero__img" alt="Portfolio">
     <!--  </div> -->
   </header>
 
@@ -41,13 +42,13 @@
         <p class="parrafo">Generate meaningful discussions with your audience and build a strong, loyal community. Think of the insightful conversations you miss out on with a feedback form.</p>
       </div>
       <div class="seccion__imagen">
-        <img src="/images/illustration-grow-together.svg" class="ilustracion" alt="Grow Together">
+        <img src="images/illustration-grow-together.svg" class="ilustracion" alt="Grow Together">
       </div>
     </section>
 
     <section class="seccion">
       <div class="section__imagen">
-        <img src="/images/illustration-flowing-conversation.svg" class="ilustracion" alt="Flowing Conversations">
+        <img src="images/illustration-flowing-conversation.svg" class="ilustracion" alt="Flowing Conversations">
       </div>
       <div class="seccion__texto">
         <header>
@@ -65,7 +66,7 @@
         <p class="parrafo">It takes no time at all to integrate Huddle with your app's authentication solution. This means, once signed in to your app, your users can start chatting immediately.</p>
       </div>
       <div class="seccion__imagen">
-        <img src="/images/illustration-your-users.svg" class="ilustracion" alt="Your Users">
+        <img src="images/illustration-your-users.svg" class="ilustracion" alt="Your Users">
       </div>
     </section>
 
@@ -79,29 +80,41 @@
       </div>
     </div>
     <div class="pie__menu">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-      incididunt ut labore et dolore magna aliqua
-
-      +1-543-123-4567
-      example@huddle.com
-
-      About Us
-      What We Do
-      FAQ
-
-      Career
-      Blog
-      Contact Us
-
-      &copy; Copyright 2018 Huddle. All rights reserved.
+      <img src="images/logo.svg" class="pie__menu_logo" alt="Huddle Logo">
+      <div class="pie__menu__contacto">
+        <img src="images/icon-location.svg" class="pie__menu__contacto__ico" alt="Location">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+        <img src="images/icon-phone.svg" class="pie__menu__contacto__ico" alt="Phone">
+        <p>+1-543-123-4567</p>
+        <img src="images/icon-email.svg" class="pie__menu__contacto__ico" alt="Email">
+        <p>example@huddle.com</p>
+      </div>
+      <div class="pie__menu__main">
+        <div class="pie__menu_main-izq">
+          <a href="#" class="pie__menu_enlace">About Us</a>
+          <a href="#" class="pie__menu_enlace">What We Do</a>
+          <a href="#" class="pie__menu_enlace">FAQ</a>
+        </div>
+        <div class="pie__menu_main-dch">
+          <a href="#" class="pie__menu_enlace">Career</a>
+          <a href="#" class="pie__menu_enlace">Blog</a>
+          <a href="#" class="pie__menu_enlace">Contact Us</a>
+        </div>
+      </div>
+      <div class="pie__menu__social">
+        <i class="fab fa-facebook pie__menu__social-ico"></i>
+        <i class="fab fa-twitter pie__menu__social-ico"></i>
+        <i class="fab fa-instagram pie__menu__social-ico"></i>
+      </div>
+      <p class="copyright">&copy; Copyright 2018 Huddle. All rights reserved.</p>
     </div>
   </footer>
 
-<!--   <footer>
+
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
       Coded by <a href="#">Your Name Here</a>.
     </p>
-  </footer> -->
+  
 </body>
 </html>
